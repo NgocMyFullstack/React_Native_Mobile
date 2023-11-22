@@ -1,0 +1,18 @@
+{
+    "extends": "expo/tsconfig.base",
+    "compilerOptions": {
+        "strict": true,
+        "paths": {
+            "@/*": ["/*"]
+        }
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+        ".expo/types/**/*.ts",
+        "expo-env.d.ts",
+        "context/auth-context.js",
+        "components/custom-background.tsx",
+        "components/home-bottom-sheet.tsx"
+    ]
+}
